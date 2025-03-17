@@ -1,4 +1,10 @@
+"use client"; // 👈 Add this as the first line
+
 import Image from "next/image";
+
+export default function Home() {
+  console.log("✅ Page.tsx has been updated!");
+
 
 export default function Home() {
   return (
